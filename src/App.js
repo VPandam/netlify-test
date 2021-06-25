@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Game from './Pages/Game'
+import React from 'react'
+import Home from './Pages/Home'
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Prueba de netlify putito a ver si se actualiza
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path='/' component={Home}/>
+        <Route exact path='/game' component={Game}/>
+      </Switch>
+    </BrowserRouter>
   );
 }
 
