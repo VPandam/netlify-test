@@ -1,0 +1,46 @@
+.home__image-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home__image-container img {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+.link__container {
+  position: absolute;
+  bottom: 150px;
+  width: 350px;
+  height: 70px;
+
+  border-radius: 20px;
+  box-shadow: 3px 3px rgb(0, 0, 0);
+  background-color: rgba(2, 193, 216);
+}
+.home__image-container a {
+  text-decoration: none;
+  text-align: center;
+
+  width: 100%;
+  height: 100%;
+
+  font-size: 30px;
+  font-weight: bold;
+
+  color: #00483f;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__image-container a label {
+  cursor: pointer;
+}

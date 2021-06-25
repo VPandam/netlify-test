@@ -1,0 +1,14 @@
+.Card {
+  height: 100px;
+  width: 100px;
+
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.Card img {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
